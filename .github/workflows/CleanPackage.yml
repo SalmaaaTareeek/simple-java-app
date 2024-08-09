@@ -1,0 +1,16 @@
+name: Clean Package
+on:
+    push:
+        branches:
+            - "main"
+jobs:
+    First-Job:
+        name: Before Checkout
+        runs-on: ubuntu-latest
+        steps: 
+            - name: beforecheckout
+              run: ls
+              shell: bash
+
+
+
