@@ -11,6 +11,13 @@ jobs:
             - name: beforecheckout
               run: ls
               shell: bash
+            - name: checkoutactions
+              uses: actions/checkout@v4
+            - name: aftercheckout
+              run: ls
+              shell: bash
+
+
 
 
 
