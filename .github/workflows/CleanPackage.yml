@@ -16,6 +16,9 @@ jobs:
             - name: aftercheckout
               run: ls
               shell: bash
+            - name: Run Maven
+              run: mvn clean package
+              shell: bash
 
 
 
